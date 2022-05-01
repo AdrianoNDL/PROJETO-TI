@@ -1,1 +1,5 @@
-Quaisquer coisas
+*** Settings ***
+
+Resource    ./resources/Zoom.robot
+
+*** Tasks ***
