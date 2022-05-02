@@ -15,5 +15,6 @@ Ler a planilha
     ${PRODUTOS} =       Read Worksheet As Table     header=True
     Close Workbook
 
+    ${PRODUTOS} =           Convert To List    ${PRODUTOS}
     Set Suite Variable      ${PRODUTOS}
     Log Many                @{PRODUTOS}
