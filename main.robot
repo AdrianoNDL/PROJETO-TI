@@ -1,23 +1,34 @@
 *** Settings ***
 
-Resource    ./keywords/planilha.robot
-Resource    ./keywords/casas_bahia.robot
+Resource    ./resources/precos.robot
 
 *** Tasks ***
 
 Resgatar produtos para busca
     Ler a planilha      Produtos.xlsx
 
-Realizar busca na Casas Bahia
-    Acessar CB
+Realizar busca na Kabum
+    Acessar KB
     FOR   ${PRODUTO}   IN   @{PRODUTOS}
-        Pesquisar e resgatar valor na CB    ${PRODUTO}
+        Pesquisar e resgatar valor na KB    ${PRODUTO}
     END
-    Encerrar navegação na CB
+    Encerrar navegação na KB
     Log Many    @{PRODUTOS}
 
-#Realizar busca no Magazine Luiza
+Realizar busca no Pichau
+    Acessar PC
+    FOR   ${PRODUTO}   IN   @{PRODUTOS}
+        Pesquisar e resgatar valor na PC    ${PRODUTO}
+    END
+    Encerrar navegação na PC
+    Log Many    @{PRODUTOS}
 
-#Realizar busca no Ponto Frio
+Realizar busca no Nova Era Shop
+    Acessar NE
+    FOR   ${PRODUTO}   IN   @{PRODUTOS}
+        Pesquisar e resgatar valor na NE    ${PRODUTO}
+    END
+    Encerrar navegação na NE
+    Log Many    @{PRODUTOS}
 
 #Inserir preços no banco de dados
