@@ -4,9 +4,8 @@ Robô que realiza busca de preços de eletrônicos nos sites Kabum, Pichau e Nov
 
 ## Gerar dados
 
-```python dados.py```
-
-Gera os dados para o Power BI.
+- Abra um terminal e rode o comando ```mongod``` para iniciar o MongoDB. Deixe rodando
+- Em outro terminal, rode o comando ```python dados.py```
 
 ## Como Rodar
 
