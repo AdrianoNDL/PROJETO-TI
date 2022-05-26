@@ -31,4 +31,5 @@ Realizar busca no Nova Era Shop
     Encerrar navegação na NE
     Log Many    @{PRODUTOS}
 
-#Inserir preços no banco de dados
+Inserir preços no banco de dados
+    Inserir dados no banco
