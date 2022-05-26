@@ -2,6 +2,12 @@
 
 Robô que realiza busca de preços de eletrônicos nos sites Kabum, Pichau e Nova Era e insere os dados no banco de dados.
 
+## Gerar dados
+
+```python dados.py```
+
+Gera os dados para o Power BI.
+
 ## Como Rodar
 
 - Abra um terminal e rode o comando ```mongod``` para iniciar o MongoDB. Deixe rodando
