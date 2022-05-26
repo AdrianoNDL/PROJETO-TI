@@ -25,3 +25,4 @@ Você precisa ter na máquina:
 - PyMongo
 - [Mongo Library](https://github.com/rafinhacarneiro/mongolibrary)
 - Pandas
+- Power BI para Dashboard
