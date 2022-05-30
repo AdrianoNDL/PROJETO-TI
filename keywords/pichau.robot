@@ -36,7 +36,7 @@ Pesquisar e resgatar valor na PC
         Filtrar e selecionar o produto na PC
         Resgatar o valor na PC   ${PRODUTO}
     ELSE
-        Registrar falta de produto na PC
+        Registrar falta de produto na PC    ${PRODUTO}
     END
 
 

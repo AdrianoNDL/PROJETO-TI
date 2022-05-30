@@ -36,7 +36,7 @@ Pesquisar e resgatar valor na KB
         Filtrar e selecionar o produto na KB
         Resgatar o valor na KB   ${PRODUTO}
     ELSE
-        Registrar falta de produto na KB
+        Registrar falta de produto na KB    ${PRODUTO}
     END
 
 
